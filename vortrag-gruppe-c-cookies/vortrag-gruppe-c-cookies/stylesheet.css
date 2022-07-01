@@ -1,0 +1,60 @@
+body
+{
+    margin:0px;
+}
+#Title
+{
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 80px;
+}
+#Flexcenter
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Cookie
+{
+    width: 40%
+}
+#Cookie:active
+{
+    transform: scale(1.05);
+}
+#Cookiewindow
+{
+    z-index: 1;
+    position:absolute;
+    top: 400px;
+    background-color: gray;
+    width: 500px;
+    height: 200px;
+    border: 5px solid;
+    border-color:black;
+    padding:5px;
+}
+#Infotext
+{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+#Acceptbutton
+{
+    font-size: 30px;
+    background-color: greenyellow;
+}
+#Acceptbutton:hover
+{
+    background-color: #080;
+}
+#Rejectbutton
+{
+    font-size: 30px;
+    background-color: red;
+}
+#Rejectbutton:hover
+{
+    background-color: #9c1006;
+}

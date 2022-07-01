@@ -1,0 +1,200 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-container {
+  display: flex;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  justify-content: center;
+  
+}
+.bild{
+  height: 200px;
+  width: 200px;
+  
+}
+.navigation-container {
+
+  height: 80px;
+  margin-left: 50px;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-right: 5%;
+  display: flex;
+  background-color: #6B4F4F;
+  justify-content: space-evenly;
+}
+
+h1 {
+  padding: 5px 50px 30px;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.Unternavigation{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  font-weight: bold;
+  
+}
+.Grossercontainer{
+  display: flex;
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  
+  height: 500px;
+}
+.Bild{
+  height: 500px;
+  
+  width: 40% ;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+.Aufgabenstellung{
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 40% ;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 40px;
+  
+}
+.Bilder{
+  height: 500px;
+  width: 600px;
+  border-radius:15px;
+}
+.Quote{
+  height: 100px;
+  color: #483434;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 40px;
+  background-color:#EED6C4;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius:15px;
+}
+.html{
+  background-color: #FFF3E4;
+}
+.UContainer{
+  display: flex;
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 45px;
+  background-color:#6B4F4F;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius:15px;
+  
+}
+.BildContainer{
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50% ;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 20px;
+  background-color: blue;
+  border-radius:15px;
+}
+.Batman{
+  height: 400px;
+  width: 100%;
+  border-radius:15px;
+}
+.Bild23{
+  margin-top: 50px;
+  height: 500px;
+  font-size: 24px;
+  width: 40% ;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #EED6C4;
+  
+}
+.LastContainer{
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  height: 300px;
+  background-color: #483434;
+  border-radius:15px;
+}
+.ulastcontainer{
+  display: block;
+  margin-left: 40px;
+  margin-top: 40px;
+  height: 200px;
+  width: 50%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:40px;
+  justify-content: center;
+  color: #FFF3E4;
+  border-radius:15px;
+  
+}
+.Codeeingabe{
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  font-size: 40px;
+  align-items: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  color: #483434;
+  border-radius:15px;
+}
+
+.brown{
+  background-color: #483434;
+  height: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.f21{
+  color: #FFF3E4;
+  text-decoration: underline;
+  border-radius:15px;
+}
+.g21{
+  color: #483434;
+  border-radius:15px;
+}
+#contentScroller
+{
+	position: absolute;
+	top: 25%;
+	bottom: 25%;
+	left: 0px;
+	right: 0px;
+	
+	margin: 0px auto;
+	width: 50%;
+	
+	overflow: scroll;
+}
+#instaminsta{
+  color: #FFF3E4;
+}
